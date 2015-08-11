@@ -16,7 +16,8 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="70dp" />
+            android:layout_height="70dp"
+            android:id="@+id/textField"/>
 
     </LinearLayout>
 
@@ -32,10 +33,11 @@
             android:orientation="vertical">
 
         <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1"
-        android:id="@+id/jedan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/jedan"
+            android:onClick="klikJedan"
         />
 
         <Button
@@ -43,6 +45,7 @@
             android:layout_height="wrap_content"
             android:text="2"
             android:id="@+id/dva"
+            android:onClick="klikDva"
             />
 
         <Button
@@ -50,6 +53,7 @@
             android:layout_height="wrap_content"
             android:text="3"
             android:id="@+id/tri"
+            android:onClick="klikTri"
             />
 
         <Button
@@ -57,12 +61,14 @@
             android:layout_height="wrap_content"
             android:text="4"
             android:id="@+id/cetiri"
+            android:onClick="klikCetiri"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5"
             android:id="@+id/pet"
+            android:onClick="klikPet"
             />
 
     </LinearLayout>
@@ -77,6 +83,7 @@
             android:layout_height="wrap_content"
             android:text="6"
             android:id="@+id/sest"
+            android:onClick="klikSest"
             />
 
         <Button
@@ -84,6 +91,7 @@
             android:layout_height="wrap_content"
             android:text="7"
             android:id="@+id/sedam"
+            android:onClick="klikSedam"
             />
 
         <Button
@@ -91,6 +99,7 @@
             android:layout_height="wrap_content"
             android:text="8"
             android:id="@+id/osam"
+            android:onClick="klikOsam"
             />
 
         <Button
@@ -98,12 +107,14 @@
             android:layout_height="wrap_content"
             android:text="9"
             android:id="@+id/devet"
+            android:onClick="klikDevet"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
             android:id="@+id/nula"
+            android:onClick="klikNula"
             />
 
     </LinearLayout>
@@ -117,6 +128,7 @@
                 android:layout_height="wrap_content"
                 android:text="C"
                 android:id="@+id/brisi"
+                android:onClick="klikBrisi"
                 />
 
             <Button
@@ -124,6 +136,7 @@
                 android:layout_height="wrap_content"
                 android:text="+"
                 android:id="@+id/plus"
+                android:onClick="klikPlus"
                 />
 
             <Button
@@ -131,6 +144,7 @@
                 android:layout_height="wrap_content"
                 android:text="-"
                 android:id="@+id/minus"
+                android:onClick="klikMinus"
                 />
 
             <Button
@@ -138,12 +152,14 @@
                 android:layout_height="wrap_content"
                 android:text="*"
                 android:id="@+id/puta"
+                android:onClick="klikPuta"
                 />
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="/"
                 android:id="@+id/podeljeno"
+                android:onClick="klikPodeljeno"
                 />
 
         </LinearLayout>
