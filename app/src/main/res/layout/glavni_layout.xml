@@ -17,7 +17,9 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:id="@+id/textField"/>
+            android:id="@+id/textField"
+            android:inputType="number|textLongMessage"
+            />
 
     </LinearLayout>
 
