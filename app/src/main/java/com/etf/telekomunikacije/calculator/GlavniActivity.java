@@ -11,7 +11,7 @@ public class GlavniActivity extends Activity {
 
     Button jedan, dva, tri, cetiri, pet, sest, sedam, osam, devet,nula, brisi, plus, minus, puta, podeljeno;
     EditText textField;
-
+    String a="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,16 +39,23 @@ public class GlavniActivity extends Activity {
 
 
     public void klikJedan(View view){
-        textField.setText("1");
-        textField.invalidate();
+        //textField.setText(a+"1");
+
+        a=textField.getText().toString();
+        a=a+"1";
+        textField.setText(a);
     }
 
     public void klikDva(View view){
-        textField.setText("2");
+        //textField.setText(a+"2");
+
+        a=textField.getText().toString();
+        a=a+"1";
+        textField.setText(a);
 
     }
     public void klikTri(View view){
-        textField.setText("3");
+        textField.setText(a+"3");
     }
     public void klikCetiri(View view){
         textField.setText("4");
